@@ -1,0 +1,42 @@
+.buttonContainer {
+  margin-bottom: 5px;
+}
+
+.button {
+  border-radius: 5px;
+  border-color: cadetblue;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+button:hover,
+button:focus {
+  background: transparent;
+  outline: none;
+}
+body{
+  
+  background-image: url('../img/mapa.jpg');
+  background-size: cover;
+  background-repeat: none;
+}
+.wrapper{
+  margin-top: 5%;
+}
+.main, .texto{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main img{
+  width: 35px;
+  margin: 0 auto;
+}
+.title{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.25em;
+}
+.email{
+  color: #fff;
+}
