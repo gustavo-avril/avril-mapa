@@ -19,6 +19,7 @@ body{
   background-image: url('../img/mapa.jpg');
   background-size: cover;
   background-repeat: none;
+  max-height: 50vh;
 }
 .wrapper{
   margin-top: 5%;
@@ -39,4 +40,8 @@ body{
 }
 .email{
   color: #fff;
+}
+.oficina{
+  max-height: 800px;
+  height: auto;
 }

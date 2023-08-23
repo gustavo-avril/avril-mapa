@@ -4,10 +4,11 @@ import ReactDOM from "react-dom";
 import Map from "./Map";
 import LeftContainer from "./Map/components/LeftContainer";
 import { MAP_JSON } from "./Map/constants";
-
-import "./styles.css";
 import RightContainer from "./Map/components/RightContainer";
 import Oficinas from "./Map/components/OfficeContainer";
+
+import "./styles.css";
+
 
 function App() {
   return (
@@ -20,7 +21,6 @@ function App() {
           height: 800,
           center: [-62, -40],
           scale: 420,
-          currency: "$"
         }}
       />
       <RightContainer />

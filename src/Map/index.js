@@ -13,11 +13,12 @@ import { ZOOM } from "./constants";
 import "./styles.css";
 
 const StyledGeography = styled(Geography)`
-  ${({ color, hover }) => `
+  ${({ color, hover, shadow }) => `
     fill: ${color};
-    stroke: #b1b1b0;
-    strokeWidth: 1.25;
+    stroke: #909190;
+    stroke-width: 0.50;
     outline: none;
+    filter: ${shadow};
     &:hover {
       fill: ${hover};
     }
@@ -57,6 +58,7 @@ class Map extends Component {
                       precision={0.5}
                       color={geography.properties.COLOR}
                       hover={geography.properties.HOVER}
+                      filter={geography.properties.SHADOW}
                     />
                   );
                 })

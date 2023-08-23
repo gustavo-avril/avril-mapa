@@ -3,7 +3,7 @@ import oficina from "../../../img/oficinas.png";
 
 function Oficinas() {
   return(
-    <img src={ oficina }  alt="Oficinas"/>
+    <img src={ oficina } className="oficina" alt="Oficinas"/>
   );
 }
 
